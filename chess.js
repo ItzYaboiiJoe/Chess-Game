@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-
+  console.log('Script is running!');
     let board = Chessboard('chessboard-container', {
       draggable: true,
       dropOffBoard: 'trash',
